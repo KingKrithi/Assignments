@@ -82,7 +82,7 @@ console.log(finalstring[0].length)
  //program to find anagrams
 
  function isAnagram(s1, s2) {
-  return a.split("").sort().join("") === b.split("").sort().join("");
+  return s1.split("").sort().join("") === s2.split("").sort().join("");
 }
 
 console.log(isAnagram("listen", "silent")); // true
