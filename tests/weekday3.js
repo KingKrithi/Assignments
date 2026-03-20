@@ -72,8 +72,18 @@ stringss()
  {
 
  s = "   fly me   to   the moon  " 
-newstring[1]= (s.split("the "));
-console.log(newstring[1])
-
+newstring= (s.split("the "));
+finalstring=newstring[1].split(" ")
+//console.log(finalstring[0])
+console.log(finalstring[0].length)
 
  }
+ moon()
+ //program to find anagrams
+
+ function isAnagram(s1, s2) {
+  return a.split("").sort().join("") === b.split("").sort().join("");
+}
+
+console.log(isAnagram("listen", "silent")); // true
+console.log(isAnagram("hello", "world")); // false

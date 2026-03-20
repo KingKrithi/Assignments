@@ -1,3 +1,5 @@
+
+//to find duplicates
 let numarray=[56,78,90,23,90,76,43,56]
 let length=numarray.length;
 console.log("duplicates elements")

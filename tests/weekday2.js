@@ -1,4 +1,4 @@
-//function to find odd or even
+//function to find odd or even assigment
 
 function isOddOrEven(value)
 {
@@ -15,7 +15,10 @@ function isOddOrEven(value)
 }
 isOddOrEven(2);
 
-//number type
+
+
+
+//number type assigment 
 
 function num(num1)
 {
@@ -35,21 +38,24 @@ else
     console.log("number is 0")
 }
 }
-num(1000000);
+num(1000000); 
 
 
-///global scope
-let genderType="male"
+
+
+///global scope assigment
+var genderType="male"
 function printgender()
 {
 
-    let color=brown ;
+    let color='brown' ;
     if(genderType==='female')
     {
         var age=30;
-        let color=Pink ;
-        console.log(color)
+        let color='Pink' ;
+       // console.log(color)
     }
-console.log(age)
+    console.log(color)
+//console.log(age)
 }
 printgender()
