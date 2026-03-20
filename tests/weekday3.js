@@ -1,6 +1,6 @@
 //even or odd verification
 
-/*function odd()
+function odd()
 {
     for(let i=0;i<=25;i++)
     {
@@ -10,13 +10,13 @@
         }
     }
 }
-odd()*/
+odd()
 
 
 /*Create and call two JavaScript functions: `launchBrowser` with `if-else` for browser launch messages, and 
-`runTests` with `switch` for test type messages./*
+`runTests` with `switch` for test type messages.*/
 
-/* function launchBrowser(browsername)
+function launchBrowser(browsername)
 {
 if(browsername==='Chrome')
 {
@@ -53,7 +53,7 @@ function runTests(testType)
     }
 
 }
-runTests("regression") */
+runTests("regression")
 
 //strings
 //finding lenght of string
