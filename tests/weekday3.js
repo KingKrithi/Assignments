@@ -82,8 +82,28 @@ console.log(finalstring[0].length)
  //program to find anagrams
 
  function isAnagram(s1, s2) {
-  return a.split("").sort().join("") === b.split("").sort().join("");
+  return s1.split("").sort().join("") === s2.split("").sort().join("");
 }
 
 console.log(isAnagram("listen", "silent")); // true
 console.log(isAnagram("hello", "world")); // false
+
+
+//to find palindrome or not
+
+
+function reverse(str)
+{
+    let reversedstr=str.split("").reverse().join("");
+    console.log(reversedstr)
+    if(reversedstr===str)
+    {
+        console.log("string is palindrome");
+    }
+    else 
+    {
+       console.log("string is not palindrome");  
+    }
+}
+reverse("cooc")
+
