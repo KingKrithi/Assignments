@@ -18,4 +18,25 @@ for( let i=0;i<length;i++)
 }
  
 
+//call back function
+
+// 1. Global variable
+let browser = "Chrome";
+
+// 2. Function with callback
+function checkBrowserVersion(callback) {
+    setTimeout(function () {
+        // after 2 seconds call callback and pass browser
+        callback(browser);
+    }, 2000);
+}
+
+// 3. Callback function
+function printBrowserVersion(version) {
+    console.log("Browser version is: " + version);
+}
+
+// 4. Call function and pass callback
+checkBrowserVersion(printBrowserVersion);
+
 
