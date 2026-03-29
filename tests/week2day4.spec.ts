@@ -9,6 +9,7 @@ await page.locator("#password").fill("TestLeaf@2025")
 await page.locator("#Login").click();
 //await page.waitForTimeout(12000);
 await page.locator(".slds-icon-waffle").click();
-await page.waitForTimeout(120000);
+await page.waitForTimeout(12000);
+
 }
 )
