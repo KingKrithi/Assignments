@@ -9,7 +9,7 @@ await page.getByRole("button",{name:'Login'}).click();
 await page.getByText("CRM/SF").click();
 await page.getByRole("link",{name:'Leads'}).click();
 await page.locator("//li/a[text()='Create Lead']").click();
-await page.locator("#createLeadForm_companyName").fill("Gatty")
+await page.getByText("Company Name").fill("Gatty")
 await page.locator("#createLeadForm_firstName").fill("KrithiV")
 await page.locator('#createLeadForm_lastName').fill("Lalith")
 await page.locator("#createLeadForm_personalTitle").fill("ms")
